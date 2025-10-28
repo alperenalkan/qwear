@@ -76,25 +76,25 @@ export function Services() {
 
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl mb-4 text-gray-900">
+          <h2 className="text-3xl sm:text-4xl mb-4 text-gray-900 font-gothic-display">
             {t.services.title}
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-gray-600 font-gothic-elegant">
             {t.services.subtitle}
           </p>
-          <p className="text-gray-500 mt-2">
+          <p className="text-gray-500 mt-2 font-gothic-body">
             {t.services.description}
           </p>
         </div>
 
         <Tabs defaultValue="products" className="w-full">
           <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-4 mb-12">
-            <TabsTrigger value="products">{t.services.tabs.products}</TabsTrigger>
-            <TabsTrigger value="main">{t.services.tabs.services}</TabsTrigger>
-            <TabsTrigger value="export">{t.services.tabs.export}</TabsTrigger>
-            <TabsTrigger value="advanced">{t.services.tabs.advanced}</TabsTrigger>
+            <TabsTrigger value="products" className="font-gothic-body font-medium">{t.services.tabs.products}</TabsTrigger>
+            <TabsTrigger value="main" className="font-gothic-body font-medium">{t.services.tabs.services}</TabsTrigger>
+            <TabsTrigger value="export" className="font-gothic-body font-medium">{t.services.tabs.export}</TabsTrigger>
+            <TabsTrigger value="advanced" className="font-gothic-body font-medium">{t.services.tabs.advanced}</TabsTrigger>
           </TabsList>
 
           <TabsContent value="products" className="mt-0">
@@ -114,10 +114,10 @@ export function Services() {
                       <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4">
                         <Icon className="w-8 h-8 text-amber-600" />
                       </div>
-                      <h3 className="text-xl mb-3 text-gray-900">
+                      <h3 className="text-xl mb-3 text-gray-900 font-gothic-display">
                         {service.title}
                       </h3>
-                      <p className="text-gray-600">{service.description}</p>
+                      <p className="text-gray-600 font-gothic-body">{service.description}</p>
                     </CardContent>
                   </Card>
                 );
@@ -127,10 +127,10 @@ export function Services() {
 
           <TabsContent value="export">
             <div className="mb-12">
-              <h3 className="text-2xl text-center mb-8 text-gray-900">
+              <h3 className="text-2xl text-center mb-8 text-gray-900 font-gothic-display">
                 {t.services.exportTitle}
               </h3>
-              <p className="text-center text-gray-600 mb-8">
+              <p className="text-center text-gray-600 mb-8 font-gothic-body">
                 {t.services.exportDesc}
               </p>
             </div>
@@ -146,11 +146,11 @@ export function Services() {
                       <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4">
                         <Icon className="w-8 h-8 text-amber-600" />
                       </div>
-                      <h3 className="text-xl mb-3 text-gray-900">
+                      <h3 className="text-xl mb-3 text-gray-900 font-gothic-display">
                         {service.title}
                       </h3>
-                      <p className="text-gray-600 mb-3">{service.description}</p>
-                      <p className="text-sm text-amber-600">{service.label}</p>
+                      <p className="text-gray-600 mb-3 font-gothic-body">{service.description}</p>
+                      <p className="text-sm text-amber-600 font-gothic-elegant">{service.label}</p>
                     </CardContent>
                   </Card>
                 );
@@ -160,10 +160,10 @@ export function Services() {
 
           <TabsContent value="advanced">
             <div className="mb-12">
-              <h3 className="text-2xl text-center mb-8 text-gray-900">
+              <h3 className="text-2xl text-center mb-8 text-gray-900 font-gothic-display">
                 {t.services.advancedTitle}
               </h3>
-              <p className="text-center text-gray-600 mb-8">
+              <p className="text-center text-gray-600 mb-8 font-gothic-body">
                 {t.services.advancedDesc}
               </p>
             </div>
@@ -179,10 +179,10 @@ export function Services() {
                       <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4">
                         <Icon className="w-8 h-8 text-amber-600" />
                       </div>
-                      <h3 className="text-xl mb-3 text-gray-900">
+                      <h3 className="text-xl mb-3 text-gray-900 font-gothic-display">
                         {service.title}
                       </h3>
-                      <p className="text-gray-600">{service.description}</p>
+                      <p className="text-gray-600 font-gothic-body">{service.description}</p>
                     </CardContent>
                   </Card>
                 );

@@ -11,27 +11,27 @@ export function Footer() {
   return (
     <>
       <footer className="bg-gray-900 text-white py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center space-y-4">
             {/* Legal Links */}
             <div className="flex gap-6 text-sm">
               <button
                 onClick={() => setImpressumOpen(true)}
-                className="text-gray-400 hover:text-amber-400 transition-colors"
+                className="text-gray-400 hover:text-amber-400 transition-colors font-gothic-body"
               >
                 {t.footer.impressum}
               </button>
               <span className="text-gray-600">|</span>
               <button
                 onClick={() => setPrivacyOpen(true)}
-                className="text-gray-400 hover:text-amber-400 transition-colors"
+                className="text-gray-400 hover:text-amber-400 transition-colors font-gothic-body"
               >
                 {t.footer.privacy}
               </button>
             </div>
             
             {/* Copyright */}
-            <p className="text-gray-400 text-sm">© 2025 QWEAR. {t.footer.rights}</p>
+            <p className="text-gray-400 text-sm font-gothic-body">© 2025 QWEAR. {t.footer.rights}</p>
           </div>
         </div>
       </footer>

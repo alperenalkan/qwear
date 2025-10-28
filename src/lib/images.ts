@@ -27,8 +27,8 @@ export const images = {
   // Carousel Images - Unsplash URLs
   carousel: {
     bmw: {
-      main: 'https://images.unsplash.com/photo-1687171304369-1fa77ee75459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMEJNVyUyMGx1eHVyeSUyMGNhcnxlbnwxfHx8fDE3NjE2NzUzMjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      series7: 'https://images.unsplash.com/photo-1750800456525-af3f9285085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCTVclMjA3JTIwc2VyaWVzJTIwd2hpdGV8ZW58MXx8fHwxNzYxNjc1MzI2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      main: '/images/carousel/auto/bmw5.webp',
+      series7: '/images/carousel/auto/bmw7.webp',
       x5: 'https://images.unsplash.com/photo-1570475268293-aa35ac502b2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCTVclMjBYNSUyMHdoaXRlfGVufDF8fHx8MTc2MTY3NTMyNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       interior: 'https://images.unsplash.com/photo-1566338774647-14068acb0b82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCTVclMjBpbnRlcmlvciUyMGx1eHVyeXxlbnwxfHx8fDE3NjE2NzUzMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       factory: 'https://images.unsplash.com/photo-1687171304369-1fa77ee75459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMEJNVyUyMGx1eHVyeSUyMGNhcnxlbnwxfHx8fDE3NjE2NzUzMjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',

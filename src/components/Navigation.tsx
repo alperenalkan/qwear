@@ -34,11 +34,11 @@ export function Navigation() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-[#FCF5E7] shadow-md' : 'bg-[#FCF5E7]/95 backdrop-blur-sm'
+        isScrolled ? 'bg-[#FCF5E7] shadow-md' : 'bg-[#FCF5E7] backdrop-blur-sm'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <div className="flex-shrink-0">
             <button
@@ -48,7 +48,7 @@ export function Navigation() {
               <img 
                 src={images.logo} 
                 alt="QWEAR Logo" 
-                className="h-16 w-auto"
+                className="h-20 w-auto"
               />
             </button>
           </div>
@@ -57,25 +57,25 @@ export function Navigation() {
           <div className="hidden md:flex items-center space-x-8 absolute left-1/2 -translate-x-1/2">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-gray-700 hover:text-amber-600 transition-colors"
+              className="text-gray-700 hover:text-amber-600 transition-colors text-xl"
             >
               {t.nav.home}
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-amber-600 transition-colors"
+              className="text-gray-700 hover:text-amber-600 transition-colors text-xl"
             >
               {t.nav.about}
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-amber-600 transition-colors"
+              className="text-gray-700 hover:text-amber-600 transition-colors text-xl"
             >
               {t.nav.services}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-amber-600 transition-colors"
+              className="text-gray-700 hover:text-amber-600 transition-colors text-xl"
             >
               {t.nav.contact}
             </button>
@@ -178,25 +178,25 @@ export function Navigation() {
           <div className="px-2 pt-2 pb-3 space-y-1">
             <button
               onClick={() => scrollToSection('home')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors text-xl"
             >
               {t.nav.home}
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors text-xl"
             >
               {t.nav.about}
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors text-xl"
             >
               {t.nav.services}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-md transition-colors text-xl"
             >
               {t.nav.contact}
             </button>

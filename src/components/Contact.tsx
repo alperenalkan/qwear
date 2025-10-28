@@ -34,12 +34,12 @@ export function Contact() {
 
   return (
     <section className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl mb-4 text-gray-900">
+          <h2 className="text-3xl sm:text-4xl mb-4 text-gray-900 font-gothic-display">
             {t.contact.title}
           </h2>
-          <p className="text-xl text-gray-600">{t.contact.subtitle}</p>
+          <p className="text-xl text-gray-600 font-gothic-elegant">{t.contact.subtitle}</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -48,7 +48,7 @@ export function Contact() {
             <CardContent className="p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <Label htmlFor="name">
+                  <Label htmlFor="name" className="font-gothic-body font-medium">
                     {t.contact.name} <span className="text-red-500">*</span>
                   </Label>
                   <Input
@@ -62,7 +62,7 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <Label htmlFor="email">
+                  <Label htmlFor="email" className="font-gothic-body font-medium">
                     {t.contact.email} <span className="text-red-500">*</span>
                   </Label>
                   <Input
@@ -77,7 +77,7 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <Label htmlFor="phone">{t.contact.phone}</Label>
+                  <Label htmlFor="phone" className="font-gothic-body font-medium">{t.contact.phone}</Label>
                   <Input
                     id="phone"
                     name="phone"
@@ -89,7 +89,7 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <Label htmlFor="message">
+                  <Label htmlFor="message" className="font-gothic-body font-medium">
                     {t.contact.message} <span className="text-red-500">*</span>
                   </Label>
                   <Textarea
@@ -103,7 +103,7 @@ export function Contact() {
                   />
                 </div>
 
-                <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700">
+                <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700 font-gothic-body font-medium">
                   {t.contact.submit}
                 </Button>
               </form>
@@ -119,8 +119,8 @@ export function Contact() {
                     <MapPin className="w-6 h-6 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg mb-2 text-gray-900">{t.contact.address}</h3>
-                    <p className="text-gray-600">
+                    <h3 className="text-lg mb-2 text-gray-900 font-gothic-display">{t.contact.address}</h3>
+                    <p className="text-gray-600 font-gothic-body">
                       Klagenfurter Ring 8, Biebrich
                       <br />
                       65187 Wiesbaden, Germany
@@ -137,10 +137,10 @@ export function Contact() {
                     <Phone className="w-6 h-6 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg mb-2 text-gray-900">{t.contact.phone}</h3>
+                    <h3 className="text-lg mb-2 text-gray-900 font-gothic-display">{t.contact.phone}</h3>
                     <a
                       href="tel:+4915201761971"
-                      className="text-amber-600 hover:text-amber-700"
+                      className="text-amber-600 hover:text-amber-700 font-gothic-body"
                     >
                       +49 152 0176 1971
                     </a>
@@ -156,10 +156,10 @@ export function Contact() {
                     <Mail className="w-6 h-6 text-amber-600" />
                   </div>
                   <div>
-                    <h3 className="text-lg mb-2 text-gray-900">{t.contact.email}</h3>
+                    <h3 className="text-lg mb-2 text-gray-900 font-gothic-display">{t.contact.email}</h3>
                     <a
                       href="mailto:info@qwear.de"
-                      className="text-amber-600 hover:text-amber-700"
+                      className="text-amber-600 hover:text-amber-700 font-gothic-body"
                     >
                       info@qwear.de
                     </a>
