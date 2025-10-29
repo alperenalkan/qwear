@@ -128,6 +128,40 @@ export const translations = {
             'State-of-the-art infotainment and connectivity',
           ],
           origin: 'Germany',
+          gallery: [
+            {
+              title: 'BMW 5 Series - Front View',
+              description: 'The BMW 5 Series leads the luxury sedan class with dynamic design and strong performance. Sporty front, sharp lines, and the iconic kidney grille stand out.',
+            },
+            {
+              title: 'BMW 5 Series - Rear View',
+              description: 'Elegant rear design with generous trunk space and modern LED tail lights. Factory-original white finish blends sophistication with practicality.',
+            },
+            {
+              title: 'BMW 7 Series - Front View',
+              description: 'The flagship BMW 7 Series represents the summit of luxury and technology. Striking front design, advanced safety, and premium details set the benchmark.',
+            },
+            {
+              title: 'BMW 7 Series - Rear View',
+              description: 'Symbol of prestige with a refined silhouette and spacious rear. Factory-original specifications ensure enduring value and quality.',
+            },
+            {
+              title: 'BMW X5 - Front View',
+              description: 'BMW X5 defines the luxury SUV class. Confident stance, elevated seating, and next‑gen driver assistance for city and long trips alike.',
+            },
+            {
+              title: 'BMW X5 - Rear View',
+              description: 'Functional yet elegant rear with generous cargo space and modern tech. Premium white exterior offers a sophisticated presence.',
+            },
+            {
+              title: 'BMW X7 - Front View',
+              description: 'BMW X7 is the top luxury SUV. Commanding front design, expansive cabin, and class‑leading comfort for family travel.',
+            },
+            {
+              title: 'BMW X7 - Rear View',
+              description: 'Three-row seating and premium equipment set standards in luxury SUVs. Factory-original build guarantees quality.',
+            },
+          ],
         },
         nespressoMachines: {
           name: 'Nespresso Coffee Machines',
@@ -400,6 +434,40 @@ export const translations = {
             'Hochmodernes Infotainment und Konnektivität',
           ],
           origin: 'Deutschland',
+          gallery: [
+            {
+              title: 'BMW 5er – Vorderansicht',
+              description: 'Der BMW 5er führt die Luxuslimousinenklasse an: dynamisches Design, starke Performance, sportliche Front und die ikonische Doppelniere.',
+            },
+            {
+              title: 'BMW 5er – Rückansicht',
+              description: 'Elegantes Heckdesign mit großem Kofferraum und modernen LED‑Rückleuchten. Werksoriginal in Weiß – stilvoll und praktisch.',
+            },
+            {
+              title: 'BMW 7er – Vorderansicht',
+              description: 'Das Flaggschiff 7er steht für Luxus und Technologie: markante Front, fortschrittliche Sicherheitssysteme und Premium‑Details setzen Maßstäbe.',
+            },
+            {
+              title: 'BMW 7er – Rückansicht',
+              description: 'Symbol für Prestige mit edler Silhouette und geräumigem Fond. Werksoriginale Spezifikationen sichern dauerhaften Wert.',
+            },
+            {
+              title: 'BMW X5 – Vorderansicht',
+              description: 'Der BMW X5 definiert die Luxus‑SUV‑Klasse: souveräne Erscheinung, erhöhte Sitzposition und moderne Assistenzsysteme für Stadt und Langstrecke.',
+            },
+            {
+              title: 'BMW X5 – Rückansicht',
+              description: 'Funktionales und elegantes Heck mit großem Laderaum und moderner Technik. Premium‑Weiß für einen souveränen Auftritt.',
+            },
+            {
+              title: 'BMW X7 – Vorderansicht',
+              description: 'Der BMW X7 ist das Top‑SUV: beeindruckende Front, großzügiger Innenraum und Komfort auf höchstem Niveau.',
+            },
+            {
+              title: 'BMW X7 – Rückansicht',
+              description: 'Drei Sitzreihen und Premium‑Ausstattung setzen Standards im Luxus‑SUV‑Segment. Werksoriginale Qualität garantiert.',
+            },
+          ],
         },
         nespressoMachines: {
           name: 'Nespresso Kaffeemaschinen',
@@ -672,6 +740,40 @@ export const translations = {
             'En son teknoloji bilgi-eğlence ve bağlantı',
           ],
           origin: 'Almanya',
+          gallery: [
+            {
+              title: 'BMW 5 Serisi - Ön Görünüm',
+              description: 'BMW 5 Serisi, dinamik tasarımı ve güçlü performansı ile lüks sedan sınıfının öncüsüdür. Sportif ön tasarım ve ikonik çift böbrek ızgara ile öne çıkar.',
+            },
+            {
+              title: 'BMW 5 Serisi - Arka Görünüm',
+              description: 'Şık arka tasarım, geniş bagaj hacmi ve modern LED stoplarla kaliteyi yansıtır. Fabrika çıkışlı beyaz rengi ile zarafeti vurgular.',
+            },
+            {
+              title: 'BMW 7 Serisi - Ön Görünüm',
+              description: 'BMW’nin amiral gemisi 7 Serisi, lüks ve teknolojinin zirvesini temsil eder. Gösterişli ön tasarım ve ileri güvenlik sistemleri ile standartları belirler.',
+            },
+            {
+              title: 'BMW 7 Serisi - Arka Görünüm',
+              description: 'Prestij ve zarafetin sembolü 7 Serisi, geniş arka hacim ve rafine silüet sunar. Fabrika çıkışlı özellikleri ile değerini korur.',
+            },
+            {
+              title: 'BMW X5 - Ön Görünüm',
+              description: 'BMW X5, lüks SUV sınıfının öncüsüdür. Güçlü duruş, yüksek sürüş pozisyonu ve ileri sürücü destek sistemleri ile her yolculukta güven verir.',
+            },
+            {
+              title: 'BMW X5 - Arka Görünüm',
+              description: 'Fonksiyonel ve şık arka tasarım; geniş bagaj ve modern teknoloji ile birleşir. Premium beyaz ile sofistike görünüm.',
+            },
+            {
+              title: 'BMW X7 - Ön Görünüm',
+              description: 'BMW X7, premium lüks SUV segmentinin en üst modelidir. Etkileyici ön tasarım, ferah iç mekân ve sınıfının en iyi konforu ile öne çıkar.',
+            },
+            {
+              title: 'BMW X7 - Arka Görünüm',
+              description: 'Üç sıra oturma ve premium donanımlar ile lüks SUV kategorisinde standartları belirler. Fabrika çıkışlı yapısı kalite güvencesidir.',
+            },
+          ],
         },
         nespressoMachines: {
           name: 'Nespresso Kahve Makineleri',
@@ -944,6 +1046,40 @@ export const translations = {
             'Современная информационно-развлекательная система и связь',
           ],
           origin: 'Германия',
+          gallery: [
+            {
+              title: 'BMW 5 Series — Вид спереди',
+              description: 'BMW 5 Series лидирует в классе роскошных седанов: динамичный дизайн, высокая производительность, спортивная передняя часть и фирменная решётка‑«ноздри».',
+            },
+            {
+              title: 'BMW 5 Series — Вид сзади',
+              description: 'Элегантный задний дизайн с большим багажником и современными светодиодными фонарями. Заводской белый цвет — сочетание стиля и практичности.',
+            },
+            {
+              title: 'BMW 7 Series — Вид спереди',
+              description: 'Флагманская 7 Series — вершина роскоши и технологий: выразительная передняя часть, продвинутые системы безопасности и премиальные детали.',
+            },
+            {
+              title: 'BMW 7 Series — Вид сзади',
+              description: 'Символ престижа с утончённым силуэтом и просторным задним рядом. Заводские спецификации обеспечивают долгосрочную ценность.',
+            },
+            {
+              title: 'BMW X5 — Вид спереди',
+              description: 'BMW X5 определяет класс роскошных SUV: уверенная посадка, высокая позиция водителя и современные ассистенты для города и трассы.',
+            },
+            {
+              title: 'BMW X5 — Вид сзади',
+              description: 'Функциональный и элегантный задний дизайн с большим багажником и современной электроникой. Премиальный белый — для солидного образа.',
+            },
+            {
+              title: 'BMW X7 — Вид спереди',
+              description: 'BMW X7 — топ‑SUV: внушительная передняя часть, огромный салон и комфорт высшего уровня для семьи.',
+            },
+            {
+              title: 'BMW X7 — Вид сзади',
+              description: 'Три ряда сидений и премиальное оснащение задают стандарты в сегменте люкс‑SUV. Заводское исполнение гарантирует качество.',
+            },
+          ],
         },
         nespressoMachines: {
           name: 'Кофемашины Nespresso',
